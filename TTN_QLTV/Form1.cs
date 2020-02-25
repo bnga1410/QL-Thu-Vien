@@ -26,7 +26,9 @@ namespace TTN_QLTV
 
         private void mượnSáchToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
+            this.Close();
+            NhuCauMuonSach frm = new NhuCauMuonSach();
+            frm.Show();
         }
 
         private void chiTiếtMượnSáchToolStripMenuItem_Click(object sender, EventArgs e)
@@ -43,17 +45,23 @@ namespace TTN_QLTV
 
         private void nhânViênToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            this.Close();
+            NhanVien frm = new NhanVien();
+            frm.Show();
         }
 
         private void tácGiảToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            this.Close();
+            TacGia frm = new TacGia();
+            frm.Show();
         }
 
         private void thểLoạiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
+            this.Close();
+            TheLoai frm = new TheLoai();
+            frm.Show();
         }
 
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
