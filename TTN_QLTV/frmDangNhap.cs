@@ -13,7 +13,7 @@ namespace TTN_QLTV
     public partial class frmDangNhap : Form
     {
 
-        string Strcon = @"Data Source=NGABUI\SQLEXPRESS01;Initial Catalog=QLTV_LOAN;Integrated Security=True";
+        string Strcon = @"Data Source=PHAMHOANGANH\SQLEXPRESS;Initial Catalog=QLTV_LOAN;Integrated Security=True";
         SqlConnection conn;
         SqlCommand cmd;
 

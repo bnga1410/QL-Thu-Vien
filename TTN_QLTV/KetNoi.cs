@@ -12,7 +12,7 @@ namespace TTN_QLTV
     class KetNoi
     {
         //lấy chuỗi kết nối tới cơ sở dữ liệu
-        static string connString = @"Data Source=NGABUI\SQLEXPRESS01;Initial Catalog=QLTV_LOAN;Integrated Security=True";
+        static string connString = @"Data Source=PHAMHOANGANH\SQLEXPRESS;Initial Catalog=QLTV_LOAN;Integrated Security=True";
         //static string connString = @"Data Source=(local);Initial Catalog=QLKhoHang;Integrated Security=True";
 
         //tạo biến kết nối
